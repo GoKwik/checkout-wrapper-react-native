@@ -1,0 +1,29 @@
+{
+  "name": "checkout-react-native",
+  "version": "1.0.0",
+  "description": "A npm library which directly provides a component for rendering the whole custom checkout for react native applications",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
+  },
+  "dependencies": {
+    "react-native-webview": "^13.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.7",
+    "@babel/core": "^7.25.8",
+    "@babel/preset-react": "^7.25.7",
+    "babel-preset-expo": "^8.0.0"
+  },
+  "keywords": [
+    "checkout",
+    "webview"
+  ],
+  "author": "",
+  "license": "ISC"
+}
