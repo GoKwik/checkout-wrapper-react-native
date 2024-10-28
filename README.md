@@ -6,12 +6,12 @@ Checkout React Native is an npm library that provides a component for rendering 
 
 To use this library, ensure you have the necessary peer dependencies installed:
 
-npm install react react-native
+# npm install react react-native
 
 
 Then, install the library and its dependencies:
 
-npm install checkout-react-native react-native-webview
+# npm install checkout-react-native react-native-webview
 
 
 ## Usage
@@ -25,7 +25,7 @@ import CheckoutWrapper from "checkout-react-native";
 
 The `CheckoutWrapper` component can be used to open a custom checkout in a WebView. Here's a basic example of how to use it:
 
-<CheckoutWrapper checkoutData={checkoutData} onEvent={handleEvent} />
+# <CheckoutWrapper checkoutData={checkoutData} onEvent={handleEvent} />
 
 
 - **`checkoutData`**: This is an object that the merchant must provide. It should include the `merchantId`, `checkoutId`, and optionally, the `customerToken` and `phoneNumber`.
@@ -65,7 +65,7 @@ This project is licensed under the ISC License.
 
 ## Author
 
-[Your Name]
+Gokwik Commerce Pvt Ltd
 
 ## Contributing
 
