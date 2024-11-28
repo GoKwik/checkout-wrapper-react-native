@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, Alert } from 'react-native';
 import { WebView } from 'react-native-webview';
-import { CHECKOUT_URL } from './config';
+import { CHECKOUT_URL } from '../config';
 
 const Checkout = ({ checkoutId, merchantId, onMessage }) => {
   const checkoutUrl = `${CHECKOUT_URL}?m_id=${merchantId}&checkout_id=${checkoutId}`;
